@@ -15,9 +15,16 @@ namespace organikBahce.Entities.Conrete
         public string Phone { get; set; }
         public string MobilePhone { get; set; }
         public int ContryId { get; set; }
-        public int MyProperty { get; set; }
+        public int CityId { get; set; }
+        public int DistrictId { get; set; }
+        public string Neighborhood { get; set; }
+        public int PostCode { get; set; }
         public string AdressName { get; set; }
+        public string AdressLong { get; set; }
         public string Description { get; set; }
+        public string CommercialTitle { get; set; }
+        public string TaxAdministrator { get; set; }
+        public string TaxNumber { get; set; }
         public DateTime createdDate { get; set; }
         public DateTime modifiedDate { get; set; }
         public bool isActive { get; set; }
