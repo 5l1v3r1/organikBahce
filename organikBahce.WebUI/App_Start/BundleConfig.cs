@@ -20,11 +20,19 @@ namespace organikBahce.WebUI
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
+                      "~/Content/assets/js/bootstrap.min.js",
+                      "~/Content/assets/js/owl.carousel.min.js",
+                      "~/Content/assets/js/jquery.themepunch.revolution.min.js",
+                      "~/Content/assets/js/jquery.themepunch.plugins.min.js",
+                      "~/Content/assets/js/engo-plugins.js",
+                      "~/Content/assets/js/slick.min.js",
+                      "~/Content/assets/js/store.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/assets/css/bootstrap.css",
+                      "~/Content/assets/vendor/owl-slider.css",
+                      "~/Content/assets/vendor/settings.css",
+                      "~/Content/assets/css/style.css"));
         }
     }
 }
