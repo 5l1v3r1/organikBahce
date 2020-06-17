@@ -1322,6 +1322,7 @@
     <Content Include="Views\Account\Login - Copy.cshtml" />
     <Content Include="Views\Shared\_HomeSliderPartial.cshtml" />
     <Content Include="Views\Account\Register - Copy.cshtml" />
+    <Content Include="Views\Home\Index - Copy %282%29.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
